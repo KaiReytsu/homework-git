@@ -9,3 +9,7 @@ while step < 6:
     step += 1
 arr_of_num = sorted(arr_of_num)
 print(*arr_of_num, sep=', ')
+
+#Добвила принт моего имени:
+name = input('Hi, what is your name? ')
+print('Hi,' + name)
